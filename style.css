@@ -42,7 +42,7 @@ header h1 {
     bottom: 0; /* 位置を画像の最下部に */
     width: 100%; /* 幅は一杯に */
     background-color: rgba(0, 0, 0, .5); /* 背景色を半透明の黒に */
-    font-size: 10px; /* 文字の大きさを 10px に */
+    font-size: 14px; /* 文字の大きさを 10px に */
     color: #fff; /* 文字色を白に */
     margin: 0; /* 余白を 0 に */
 }

@@ -19,5 +19,12 @@
         "caption": "草原の風", 
         "date": "2019 March", 
         "memo": "Australiaでカンガーぇルー　　って" 
+    }, 
+    { 
+        "path": "img04.jpg", 
+        "name": "Kangol", 
+        "caption": "Good!", 
+        "date": "2019 March", 
+        "memo": "Australiaでカンガーぇルー　　って" 
     } 
 ]

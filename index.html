@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>My Photos</title>
+    <title>Portfolio</title>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
         <header>
-            <h1>My Photos</h1>
+            <h1>Portfolio</h1>
         </header>
 
     <div class="container">
@@ -21,11 +21,11 @@
 
     </div>
 
-<script src="jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
 
 <script>
-$.getJSON('images.php',
+$.getJSON(' https://miny75.github.io/clubhouse75.github.io/images.php ',
 function(data) {
     for (var i=0; i<data.length; i++) {
         $('<div class="photo"></div>')

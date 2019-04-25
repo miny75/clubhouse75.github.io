@@ -20,11 +20,5 @@
         "date": "2019 March", 
         "memo": "Australiaでカンガーぇルー　　って" 
     } 
-    { 
-        "path": "img04.jpg", 
-        "name": "Tkasyou", 
-        "caption": "いいね", 
-        "date": "2019 March", 
-        "memo": "いいね" 
-    } 
+
 ]

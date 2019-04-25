@@ -1,7 +1,8 @@
 ﻿body {
     margin: 0; /* 余白を 0 に */
     padding: 0; /* 要素内余白を 0 に */
-    background-color: rgba(26, 55, 229, 0.06); /* 背景色を薄水色に */
+    /* background-color: rgba(209, 192, 36, 0.06); /* 背景色を薄水色に */
+    background-color: #d2f0d4;
 }
 
 .container {
@@ -17,10 +18,10 @@ img {
 }
 
 header {
-    background-color: #007acc; /* 背景色を濃い青に */
-    color: #fff; /* 文字色を白に */
+    background-color: #d2f0d4; /* 背景色を濃い青に */
+    color: rgb(229, 143, 222); /* 文字色を白に */
     position: fixed; /* ヘッダーを画面内固定に */
-    top: 0; /* 位置を一番上に */
+    top: 500; /* 位置を一番上に */
     width: 100%; /* 幅を画面幅一杯に */
     z-index: 100; /* 重なったときの優先度を上に */
 }
@@ -41,9 +42,9 @@ header h1 {
     position: absolute; /* キャプションを画像の上に重ねる */
     bottom: 0; /* 位置を画像の最下部に */
     width: 100%; /* 幅は一杯に */
-    background-color: rgba(0, 0, 0, .5); /* 背景色を半透明の黒に */
-    font-size: 20px; /* 文字の大きさを 10px に */
-    color: #fff; /* 文字色を白に */
+    background-color: rgba(168, 241, 213, 0.5); /* 背景色を半透明の黒に */
+    font-size: 14px; /* 文字の大きさを 10px に */
+    color: rgb(37, 196, 72); /* 文字色を白に */
     margin: 0; /* 余白を 0 に */
 }
 

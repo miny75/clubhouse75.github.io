@@ -2,7 +2,7 @@
     { 
         "path": "img01.jpg",
         "name": "your dream", 
-        "caption": "The Samurai カックイー！",
+        "caption": "初夏　高原の風　どこまでも続く空",
         "date": "2018 July", 
         "memo": "初夏　高原の風　どこまでも続く空" 
     }, 

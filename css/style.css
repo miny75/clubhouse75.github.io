@@ -1,0 +1,188 @@
+﻿body {
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  color: #333;
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 0.8px;
+  word-break: break-all;
+  background-color: #f8f7f0;
+}
+.box{/*親div*/
+  position: relative;/*相対配置*/
+  background-color: #eef6f7;
+  /*background: #b3f1e9;*/
+  display: table;
+  /*height: 200px;*/
+  text-align: center;
+  width: 100%;
+}
+
+#header .title{
+  position: absolute;/*絶対配置*/
+  color: rgba(143, 229, 215, 0.6);
+  font-family: 'Oswald', sans-serif;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  padding:0;
+  margin: auto;
+  font-size: 10vmin;
+}
+
+#header .name{
+  position: absolute;/*絶対配置*/
+  color: #d59fea;
+  font-family: 'Yesteryear', cursive;
+  top: 40%;
+  left: 30%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  padding:0;
+  margin: auto;
+  font-size: 3vmin;
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+#header .desc{
+  position: absolute;/*絶対配置*/
+  color: #f0a83d;
+  font-family: 'Oswald', sans-serif;
+  top: 80%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  padding:0;
+  margin: auto;
+  font-size: 3vmin;
+}
+
+.box img{
+  width: 80%;
+  padding: 10px
+}
+
+#gnav li {
+  list-style: none;
+  /*border:#F70841 1px solid;
+  line-height: 30px;*/
+  border-right: 1px solid rgb(148, 171, 235);
+  /*display: inline;
+  background-color: rgb(159, 235, 228);
+  padding: 3px,3px*/
+}
+#gnav li a{
+  font-family: 'Oswald', sans-serif;
+  display: block;
+  padding: 20px 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 80%;
+}
+/*.align-center{
+   text-align: center;
+}*/
+
+#gnav li a:hover {
+  background: #EEE;
+  color: rgb(15, 15, 15);
+}
+#gnav li a {
+  background: rgb(55, 172, 156);
+  color: #EEE;
+}
+#gnav img{
+  width :60%;
+  position: absolute;/*絶対配置*/
+}
+
+/*--------------------------------
+　Section
+---------------------------------*/
+
+.section .inner {
+  padding: 400px 10px;
+}
+
+.section .section-title-block {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section .section-title {
+  font-family: 'Playball', cursive;
+  /*font-family: 'Permanent Marker', cursive;*/
+  letter-spacing: -0.01em;
+  display: inline-block;
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #7eb3f0;
+}
+
+.section .section-desc {
+  text-align: center;
+}
+
+.two-column-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.two-column-image {
+  width: 33%;
+}
+
+.two-column-image img {
+  margin: 0 auto;
+}
+
+.two-column-desc {
+  width: 62%;
+}
+/*--------------------------------
+　works
+---------------------------------*/
+
+/* #latestworks .two-column-image {
+  width: 48%;
+}
+
+#latestworks .two-column-desc {
+  width: 48%;
+}*/
+
+.card img{
+  width: 80%;
+}
+
+
+#works .card-caption-title {
+  font-size: 13px;
+  font-weight: bold;
+  color: #165092;
+}
+
+#works .card-caption-info {
+  font-size: 12px;
+}
+
+#works .card-caption-url {
+  font-size: 10px;
+}
+
+
+

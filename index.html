@@ -4,36 +4,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>Protfolio</title>
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+        <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        
+
+    <title>Protfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Cormorant+SC|Croissant+One|Fredericka+the+Great|Homemade+Apple|Italianno|Nothing+You+Could+Do|Playball|Tangerine" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+    <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
 </head>
 
 <body>
-        <header>
-            <h1>Protfolio</h1>
-        </header>
+<div id="wrapper">
+    <header id="header">
+        <div class="box">
+            <img src="img/img01.jpg">
+            <span class="title">Protfolio</span>
+            <span class="name">Yuji Daimon’s</span>
+            <span class="desc">Artist</span>
+        </div><!--box-->
+    </header>
 
-    <div class="container">
-        <div id="img_unit">
+
+
+<nav id="gnav">
+        <ul>
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-xs-8 align-left">-->
+                    <div class="row">
+                        <div class="col-sm-1 col-xs-8">
+                            <img src="img/favicon.ico">
+                        </div>
+                        <div class="col-sm-2 col-xs-8">
+                            <li><a href="#latestworks">LATEST WORKS</a></li>
+                        </div>
+                        <div class="col-sm-2 col-xs-8">
+                            <li><a href="#works">WORKS</a></li>
+                        </div>
+                        <div class="col-sm-2 col-xs-8">
+                            <li><a href="#about">ABOUT</a></li>
+                        </div>
+                        <div class="col-sm-2 col-xs-8">
+                            <li><a href="#skill">SKILL</a></li>
+                        </div>
+                        <div class="col-sm-2 col-xs-8">
+                            <li><a href="#contact">CONTACT</a></li>
+                        </div>
+                    </div>
+
+            </div>
         </div>
+        </ul>
+    </nav>
+    <!--<div style="padding: 1000px 0"></div>
 
-    </div>
+    <h2 id="latestworks">
+        ----LATEST WORKS  
+    </h2>-->
 
-<script src="jquery.min.js"></script>
-<script src="https://unpkg.com/vue/dist/vue.js"></script>
-
-<script>
-$.getJSON('images.php',
-function(data) {
-    for (var i=0; i<data.length; i++) {
-        $('<div class="photo"></div>')
-            .append('<img src="' + data[i].path + '">')
-            .append('<div class="inner"><p>' + data[i].caption + '<span>' + data[i].name + '</span></p></div>')
-            .appendTo('#img_unit');
-    }
-});
-</script>
+   <main id="contents">
+        <section class="section" id="works">
+            <div class="inner">
+                <div class="section-title-block">
+                    <h2 class="section-title">WORKS</h2>
+                </div>
+                <div class="card-wrapper my-gallery">
+                    <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                    <figure class="card">
+                        <a href="img/works/works03.jpg" data-size="640×427" class="card-image">
+                            <img src="img/works/img02.jpg" alt="">  
+                        </a>
+                        <figcaption class="card-caption">
+                            <p class="card-caption-title">作品タイトル</p>
+                            <p class="card-caption-info">Design / Coding</p>
+                            <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
+                        </figcaption>
+                    </div>
+                    </figure>
+                    <figure class="card">
+                        <a href="img/works/works01.jpg" data-size="640×427" class="card-image">
+                        <div class="col-sm-4 col-xs-12">
+                            <img src="img/works/img02.jpg" alt="">  
+                        </a>
+                        <figcaption class="card-caption">
+                            <p class="card-caption-title">作品タイトル</p>
+                            <p class="card-caption-info">Design / Coding</p>
+                            <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
+                        </figcaption>
+                        </div>
+                    </figure>
+                    <figure class="card">
+                        <a href="img/works/works02.jpg" data-size="640×427" class="card-image">
+                        <div class="col-sm-4 col-xs-12">
+                            <img src="img/works/img02.jpg" alt="">  
+                        </a>
+                        <figcaption class="card-caption">
+                            <p class="card-caption-title">作品タイトル</p>
+                            <p class="card-caption-info">Design / Coding</p>
+                            <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
+                        </figcaption>
+                        </div>
+                    </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
 </body>
 </html>

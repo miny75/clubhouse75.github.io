@@ -1,75 +1,76 @@
-﻿body {
-  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-  color: #333;
-  font-size: 15px;
-  line-height: 1.8;
-  letter-spacing: 0.8px;
-  word-break: break-all;
-  background-color: #f8f7f0;
-}
-.box{/*親div*/
-  position: relative;/*相対配置*/
-  background-color: #eef6f7;
-  /*background: #b3f1e9;*/
-  display: table;
-  /*height: 200px;*/
-  text-align: center;
+.fullscreen {
   width: 100%;
+  height: 80vh;
+  padding: 40vh;
 }
 
-#header .title{
+.a {
+  position: relative;/*相対配置*/
+  background: url('../img/imgbg2.jpg') center/cover;
+}
+.fullscreen p{
   position: absolute;/*絶対配置*/
-  color: rgba(143, 229, 215, 0.6);
-  font-family: 'Oswald', sans-serif;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  padding:0;
-  margin: auto;
+  color: rgb(245, 228, 240);
+  top: 60%;
+  left: 30%;
   font-size: 10vmin;
 }
-
-#header .name{
+.fullscreen img{
   position: absolute;/*絶対配置*/
-  color: #d59fea;
-  font-family: 'Yesteryear', cursive;
-  top: 40%;
-  left: 30%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  padding:0;
-  margin: auto;
-  font-size: 3vmin;
-  -webkit-transform: rotate(-10deg);
-  transform: rotate(-10deg);
+  bottom: 0%;
+  left: 0%;
+  height: 10%;
 }
-#header .desc{
-  position: absolute;/*絶対配置*/
-  color: #f0a83d;
-  font-family: 'Oswald', sans-serif;
-  top: 80%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  padding:0;
-  margin: auto;
-  font-size: 3vmin;
+.good {
+  background-color: #2779bd;
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.box img{
-  width: 80%;
-  padding: 10px
+
+
+
+.sample-box {
+  position: relative;
 }
 
+.good {
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #2779bd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body{
+  background: #d8e5f0;
+  font-family: Fredericka+the+Great;
+}
 #gnav li {
   list-style: none;
   /*border:#F70841 1px solid;
   line-height: 30px;*/
-  border-right: 1px solid rgb(148, 171, 235);
+  /*border-right: 1px solid rgb(148, 171, 235);*/
   /*display: inline;
   background-color: rgb(159, 235, 228);
   padding: 3px,3px*/
@@ -80,24 +81,16 @@
   padding: 20px 15px;
   text-align: center;
   text-decoration: none;
-  color: #333;
-  font-size: 80%;
+  color: rgb(83, 79, 79);
+  font-size: 100%;
 }
-/*.align-center{
-   text-align: center;
-}*/
-
 #gnav li a:hover {
   background: #EEE;
-  color: rgb(15, 15, 15);
+  color: rgb(37, 36, 36);
 }
 #gnav li a {
-  background: rgb(55, 172, 156);
+  background: rgb(99, 97, 97);
   color: #EEE;
-}
-#gnav img{
-  width :60%;
-  position: absolute;/*絶対配置*/
 }
 
 /*--------------------------------
@@ -105,7 +98,7 @@
 ---------------------------------*/
 
 .section .inner {
-  padding: 400px 10px;
+  padding: 100px 10px;
 }
 
 .section .section-title-block {
@@ -114,7 +107,8 @@
 }
 
 .section .section-title {
-  font-family: 'Playball', cursive;
+  /*font-family: 'Playball', cursive;*/
+  font-family: 'Fredericka+the+Great';
   /*font-family: 'Permanent Marker', cursive;*/
   letter-spacing: -0.01em;
   display: inline-block;
@@ -183,6 +177,4 @@
 #works .card-caption-url {
   font-size: 10px;
 }
-
-
 
